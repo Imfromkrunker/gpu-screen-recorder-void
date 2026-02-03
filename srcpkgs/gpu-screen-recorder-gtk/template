@@ -1,0 +1,12 @@
+pkgname=gpu-screen-recorder-gtk
+version=5.7.9
+revision=1
+build_style=meson
+short_desc="Gtk frontend to gpu-screen-recorder, a shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux"
+homepage="https://git.dec05eba.com/"
+license="GPL-3.0-only"
+hostmakedepends="pkgconf"
+makedepends="gtk-update-icon-cache desktop-file-utils gtk+3-devel libX11-devel libXrandr-devel pulseaudio-devel libayatana-appindicator-devel"
+depends="gtk+3 libX11 libXrandr libpulseaudio libayatana-appindicator gpu-screen-recorder"
+distfiles="https://dec05eba.com/snapshot/gpu-screen-recorder-gtk.git.${version}.tar.gz"
+checksum="c369f128f1f343cef7b76ee3d80c4f132c0684ee0953ef35cc04fe6023ebf8ff"

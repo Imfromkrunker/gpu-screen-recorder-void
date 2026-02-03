@@ -1,0 +1,12 @@
+pkgname=gpu-screen-recorder-notification
+version=1.1.0
+revision=1
+build_style=meson
+short_desc="Notification in the style of ShadowPlay"
+homepage="https://git.dec05eba.com/"
+license="GPL-3.0-only"
+hostmakedepends="pkgconf"
+makedepends="libglvnd-devel libX11-devel libXrandr-devel libXrender-devel libXext-devel wayland-devel"
+depends="libglvnd libX11 libXrandr libXrender libXext wayland"
+distfiles="https://dec05eba.com/snapshot/gpu-screen-recorder-notification.git.${version}.tar.gz"
+checksum="b9a0fe28a9e05255b2bfbd44b99a7430d67c03b6caa9c3a18370d2a633cadabc"

@@ -1,0 +1,12 @@
+pkgname=gpu-screen-recorder-ui
+version=1.10.7
+revision=1
+build_style=meson
+short_desc="A fullscreen overlay UI for GPU Screen Recorder in the style of ShadowPlay"
+homepage="https://git.dec05eba.com/"
+license="GPL-3.0-only"
+hostmakedepends="pkgconf"
+makedepends="libcap-devel linux-headers gtk-update-icon-cache desktop-file-utils libglvnd-devel libX11-devel libXrandr-devel libXrender-devel libXcomposite-devel libXfixes-devel libXext-devel libXi-devel libXcursor-devel libpulseaudio-devel libdrm-devel wayland-devel"
+depends="gpu-screen-recorder gpu-screen-recorder-notification libglvnd libX11 libXrandr libXrender libXcomposite libXfixes libXext libXi libXcursor libpulseaudio libdrm wayland"
+distfiles="https://dec05eba.com/snapshot/gpu-screen-recorder-ui.git.${version}.tar.gz"
+checksum="8644045c0e5786552aaa747dde8c0441dc01d16783971fb2c22aa47f08a9470e"

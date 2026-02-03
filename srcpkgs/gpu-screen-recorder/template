@@ -1,0 +1,12 @@
+pkgname=gpu-screen-recorder
+version=5.9.4
+revision=1
+build_style=meson
+short_desc="A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux"
+homepage="https://git.dec05eba.com/"
+license="GPL-3.0-only"
+hostmakedepends="pkgconf Vulkan-Headers"
+makedepends="ffmpeg6-devel libglvnd-devel libXcomposite-devel libXrandr-devel libXfixes-devel libXdamage-devel libX11-devel pulseaudio-devel libva-devel libdrm-devel libcap-devel wayland-devel pipewire-devel dbus libjpeg-turbo-devel"
+depends="ffmpeg6 libglvnd libXcomposite libXrandr libXfixes libXdamage libX11 pulseaudio libva libdrm libcap wayland pipewire dbus libjpeg-turbo"
+distfiles="https://dec05eba.com/snapshot/gpu-screen-recorder.git.${version}.tar.gz"
+checksum="614df6dfd1db680587ef43b26d43ba49ee76a7bfaba1b5d7b465f868b273d9bf"
